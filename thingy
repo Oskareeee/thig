@@ -153,7 +153,7 @@ local FreeUpgrades = UpgradeStuff:CreateButton("Cheap Upgrades", function()
         if v.Name == "BasicUpgrade" then
             if v.Variables.Currency.Value == "antigrass" or v.Variables.Currency.Value == "unnaturalgrass" then
             else
-                v.Variables.Currency.Value = "planetarium"
+                v.Variables.Currency.Value = "antigrass"
             end
 
             v.Variables.CostScaling.Value = 0
